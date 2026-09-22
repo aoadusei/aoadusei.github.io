@@ -1,10 +1,10 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-LinkedIn: "abraham-owusu-adusei-9196b033a"
-X: "ao_adusei"
-cv_pdf: /assets/pdf/Abraham_Owusu_Adusei__CV.pdf # path to your CV PDF file
-email: aoadusei5@st.knust.edu.gh # your email address
+linkedIn: "abraham-owusu-adusei-9196b033a"
+x: "ao_adusei"
+cv_pdf: "/assets/pdf/Abraham_Owusu_Adusei__CV.pdf" # path to your CV PDF file
+email: "aoadusei5@st.knust.edu.gh" # your email address
 #inspirehep_id: 1010907 # Inspire HEP author ID
 #rss_icon: true # comment this line to hide the RSS icon
 #scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
