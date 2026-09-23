@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/Abraham_Owusu_Adusei__CV.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: My complete curriculum vitae is detailed below. You can also download a copy using the button above.
 toc:
   sidebar: left
 ---
