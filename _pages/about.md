@@ -26,7 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am an **MPhil Candidate in Biomedical Data Science** at the [National Institute for Mathematical Sciences (NIMS)](https://web.nims.edu.gh/), Ghana, through [Kwame Nkrumah University of Science and Technology (KNUST)](https://www.knust.edu.gh/). I am also a [DS-CHANGE Scholar](https://dsi-africa.org/project/20) under the NIH-funded Data Science Initiative for Health in Africa.
+An **MPhil Candidate in Biomedical Data Science** at the [National Institute for Mathematical Sciences (NIMS)](https://web.nims.edu.gh/), Ghana, through [Kwame Nkrumah University of Science and Technology (KNUST)](https://www.knust.edu.gh/). I am also a [DS-CHANGE Scholar](https://dsi-africa.org/project/20) under the NIH-funded Data Science Initiative for Health in Africa.
 
 My undergraduate training in **Applied Mathematics and Computational Mathematics** has provided me with a strong quantitative foundation in mathematical modelling, statistics, computation, and data analysis.
 
