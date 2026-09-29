@@ -6,7 +6,7 @@ img: assets/img/12.jpg
 importance: 1
 category: research
 related_publications: false
-publication: false
+published: false
 ---
 
 ### Non-Contact, Appearance-Invariant Computer Vision for Point-of-Care Respiratory Rate Estimation
