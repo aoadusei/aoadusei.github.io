@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Non-Contact Respiratory Rate Estimation
+description: Appearance-invariant computer vision framework for pediatric pneumonia screening in low-resource settings
 img: assets/img/12.jpg
 importance: 1
-category: work
-related_publications: true
+category: research
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Non-Contact, Appearance-Invariant Computer Vision for Point-of-Care Respiratory Rate Estimation
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Continuous physiological monitoring of pediatric patients in low-resource triage and clinical settings is frequently constrained by a lack of specialized contact sensors, high equipment costs, and infant distress caused by physical attachment.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This research formulates an **appearance-invariant computer vision and video signal processing pipeline** designed for real-time respiratory rate (RR) estimation from standard RGB video feeds. Rather than relying on appearance-dependent deep learning models or ambient-light-sensitive color absorption (rPPG), the framework extracts subtle thoracic and chest-wall motion directly from optical video.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+---
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Key Methodological Components
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Thoracic Region Localization:** Dynamic bounding and tracking of thoracic and abdominal regions of interest across video frames.
+- **Optical Motion Tracking:** Dense and sparse sub-pixel optical flow formulations to isolate subtle chest excursions from background noise and subject movements.
+- **Signal Conditioning & Noise Filtration:** Temporal bandpass filtering and illumination normalization to decouple true respiratory kinematics from lighting flicker.
+- **Spectral Frequency Decomposition:** Peak detection and spectral density analysis to extract dominant frequency peaks and map them to real-time breaths-per-minute (BPM).
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+### Research Details
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+| Detail | Description |
+| :--- | :--- |
+| **Degree** | Master of Philosophy (MPhil) in Biomedical Data Science |
+| **Institution** | National Institute for Mathematical Sciences (NIMS), KNUST |
+| **Supervisors** | Prof. Isaac K. Dontwi & Dr. Isabel Mensah |
+| **Core Tools** | Python, OpenCV, SciPy, NumPy, Matplotlib |
+| **Primary Domain** | Computer Vision, Biomedical Signal Processing, Point-of-Care Digital Health |
