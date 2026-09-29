@@ -31,6 +31,6 @@ This research formulates an **appearance-invariant computer vision and video sig
 | :--- | :--- |
 | **Degree** | Master of Philosophy (MPhil) in Biomedical Data Science |
 | **Institution** | National Institute for Mathematical Sciences (NIMS), KNUST |
-| **Supervisors** | Prof. Isaac K. Dontwi & Dr. Isabel Mensah |
+| **Supervisors** | Prof. Isaac K. Dontwi, Prof. Peter Amoako Yirenkyi & Dr. Rhydal Esi Eghan |
 | **Core Tools** | Python, OpenCV, SciPy, NumPy, Matplotlib |
 | **Primary Domain** | Computer Vision, Biomedical Signal Processing, Point-of-Care Digital Health |
