@@ -23,12 +23,15 @@ announcements:
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new post items
   limit: 3 # leave blank to include all the blog posts
 ---
-An **MPhil Candidate in Biomedical Data Science** at the [National Institute for Mathematical Sciences (NIMS)](https://web.nims.edu.gh/), Ghana, through [Kwame Nkrumah University of Science and Technology (KNUST)](https://www.knust.edu.gh/). I am also a [DS-CHANGE Scholar](https://dsi-africa.org/project/20) under the NIH-funded Data Science Initiative for Health in Africa.
+Hello everyone, welcome to my website!
+My name is Abraham, and I am an **MPhil Candidate in Biomedical Data Science** at the [National Institute for Mathematical Sciences (NIMS)](https://web.nims.edu.gh/), Ghana, through [Kwame Nkrumah University of Science and Technology (KNUST)](https://www.knust.edu.gh/). I am an NIH-Funded [DS-CHANGE](https://dsi-africa.org/project/20) Scholar through which I had the privilege of completing an experiential research training exchange at the University of Washington and a data science research internship at Seattle Children’s Research Institute (SCRI). During my time there under the supervision of [Prof. Christy McKinney](https://www.seattlechildrens.org/directory/christy-mckinney/), I worked on unsupervised clustering and longitudinal growth trajectory modeling in pediatric cleft lip and palate datasets, and co-authored a manuscript on predicting underweight in children with cleft lip and/or palate, with the opportunity to share our work at the 2026 IADR General Session in San Diego. 
+Feel free to shoot me an email if you would like to connect or discuss potential collaborations!
 
-My undergraduate training in **Applied Mathematics and Computational Mathematics** has provided me with a strong quantitative foundation in mathematical modelling, statistics, computation, and data analysis.
+Before beginning my graduate studies, I earned my Bachelor of Science in Mathematics (Applied Mathematics concentration) from KNUST. It was during my undergraduate thesis—exploring Topological Data Analysis (TDA) using the Mapper algorithm for breast cancer classification—that I first became fascinated with adapting abstract mathematical structures to solve real-world biomedical challenges. Following graduation, I served as a Teaching and Research Assistant in KNUST's Department of Mathematics, instructing courses in Real Analysis, Integral Equations I & II, and Methods for Applied Mathematics across undergraduate and postgraduate cohorts.
+
 
 #### **Research Interests**
 
@@ -37,14 +40,14 @@ My research interests lie at the intersection of computational methods, artifici
 - Computer Vision
 - Biomedical Data Science
 - Signal Processing
-- Deep Learning
+- Machine Learning / Deep Learning
 - Biomedical Imaging
 - Physiological Signal Processing
 - Image and Video Processing
-- Computational Science.
+- Computational Science
 
 I am interested in pursuing research that combines **mathematics, computation, and artificial intelligence** to address challenging problems in biomedical science and healthcare. I am particularly interested in interdisciplinary research at the intersection of **AI, biomedical imaging, computer vision, and physiological signal processing**.
 
 #### **Current Research**
 
-My current MPhil research focuses on **non-contact respiratory rate estimation from clinical video using computer vision and physiological signal extraction**. The research explores methods for extracting physiological signals from video and estimating respiratory rate without requiring physical contact with the subject.
+My current MPhil research focuses on developing a **non-contact respiratory rate estimation from clinical video using computer vision and physiological signal extraction**. The research explores methods for extracting physiological signals from video and estimating respiratory rate without requiring physical contact with the subject. This is towards early diagnosis of pediatric pneumonia in low resource certain. I am fortunate to conduct my M.Phil. thesis research under the supervision of [Prof. Isaac Kwame Dontwi](https://web.nims.edu.gh/prof_Isaac_k_dontwi),[Prof. Peter Amoako-Yirenkyi](https://dsi-africa.org/dsi-4th-consortium-meeting/biography/98), and [Dr. Rhydal Esi Eghan](https://www.linkedin.com/in/rhydal-esi-eghan-knust/)
